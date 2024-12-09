@@ -68,9 +68,9 @@ Elle repose sur une architecture client-serveur avec une base de données MySQL 
    git clone https://github.com/your-repo/MyBestLocation.git
 Configurer XAMPP :
 
-2.**Placez les fichiers PHP dans le dossier htdocs.**
+2. **Placez les fichiers PHP dans le dossier htdocs.**
 Créez une base de données MySQL et importez le fichier database/schema.sql.
-3.**Ajouter votre clé API Google Maps :**
+3. **Ajouter votre clé API Google Maps :**
 
 Ouvrez AndroidManifest.xml.
 Remplacez la valeur de :
@@ -79,32 +79,32 @@ Copier le code
 <meta-data
     android:name="com.google.android.geo.API_KEY"
     android:value="VOTRE_CLE_API_ICI" />
-4.**Lancer l'application :**
+4. **Lancer l'application :**
 
 Importez le projet dans Android Studio.
 Configurez un émulateur ou connectez un appareil physique.
 ## 🚀 Fonctionnement
-1.**Inscription et connexion :**
+1. **Inscription et connexion :**
 
 Les utilisateurs créent un compte ou se connectent via les activités SignUp et Login.
-2.**Carte interactive :**
+2. **Carte interactive :**
 
 Affiche la carte Google Maps.
 Permet d'enregistrer des positions (cliquez pour ajouter un marqueur).
-3.**Enregistrement des données :**
+3. **Enregistrement des données :**
 
 Les positions sont sauvegardées dans la base MySQL via des services PHP.
 Partage des positions :
 
 Les positions des autres utilisateurs sont récupérées et affichées en temps réel.
 ## 🌐 Technologies utilisées
-Frontend : Java, Android SDK.
-Backend : PHP, MySQL (via XAMPP).
-API : Google Maps API.
-📅 Prochaines améliorations
-Intégration de notifications en temps réel pour les nouvelles positions.
-Ajout d’un système de messagerie entre utilisateurs.
-Amélioration de l'interface utilisateur avec des animations.
+- Frontend : Java, Android SDK.
+- Backend : PHP, MySQL (via XAMPP).
+-API : Google Maps API.
+## 📅 Prochaines améliorations
+- Intégration de notifications en temps réel pour les nouvelles positions.
+- Ajout d’un système de messagerie entre utilisateurs.
+- Amélioration de l'interface utilisateur avec des animations.
 ## 🤝 Contributeurs
 [Yasmine Souissi] ([(https://github.com/YasmineSouissi/)])
 
