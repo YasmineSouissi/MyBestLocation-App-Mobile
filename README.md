@@ -100,7 +100,7 @@ Les positions des autres utilisateurs sont récupérées et affichées en temps 
 ## 🌐 Technologies utilisées
 - Frontend : Java, Android SDK.
 - Backend : PHP, MySQL (via XAMPP).
--API : Google Maps API.
+- API : Google Maps API.
 ## 📅 Prochaines améliorations
 - Intégration de notifications en temps réel pour les nouvelles positions.
 - Ajout d’un système de messagerie entre utilisateurs.
