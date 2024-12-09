@@ -1,0 +1,104 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.MyBestLocation.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Conteneur pour les fragments -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- LinearLayout pour les FloatingActionButtons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <!-- FloatingActionButton 1 -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_contact_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#304FFE"
+            android:foreground="@drawable/ic_contact_foreground"
+            android:minHeight="70dp"
+            android:tint="#FFFFFF"
+            app:backgroundTint="#FFFFFF"
+            app:fabSize="normal"
+            app:rippleColor="#2962FF" />
+
+
+        <!-- FloatingActionButton 2 -->
+
+        <!-- Espacement entre les boutons -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- FloatingActionButton 3 (locations) -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_locations_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#304FFE"
+            android:foreground="@drawable/ic_location_foreground"
+            android:minHeight="70dp"
+            android:tint="#FFFFFF"
+            app:backgroundTint="#FFFFFF"
+            app:fabSize="normal"
+            app:rippleColor="#2962FF" />
+        <!-- Espacement entre les boutons -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_account_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#304FFE"
+            android:foreground="@drawable/ic_account_foreground"
+            android:minHeight="70dp"
+            android:tint="#FFFFFF"
+            app:backgroundTint="#FFFFFF"
+            app:fabSize="normal"
+            app:rippleColor="#2962FF" />
+        <!-- Espacement entre les boutons -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_logout_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#304FFE"
+            android:foreground="@drawable/ic_signout_foreground"
+            android:minHeight="70dp"
+            android:tint="#FFFFFF"
+            app:backgroundTint="#FFFFFF"
+            app:fabSize="normal"
+            app:rippleColor="#2962FF" />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

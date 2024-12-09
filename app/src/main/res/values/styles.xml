@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_titre1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">110dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="style_ic_back">
+        <item name="android:layout_width">63dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@color/white</item> <!-- Arrière-plan de la barre -->
+        <item name="submitBackground">@color/white</item> <!-- Arrière-plan des boutons -->
+        <item name="searchHintIcon">@drawable/ic_search_foreground</item> <!-- Icône -->
+        <item name="android:textColorHint">@color/gray</item> <!-- Couleur d'indice -->
+        <item name="android:textColor">@color/black</item> <!-- Couleur du texte -->
+    </style>
+</resources>

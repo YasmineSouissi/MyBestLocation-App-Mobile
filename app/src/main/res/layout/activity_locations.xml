@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.Locations">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rouonded_bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back_locations"
+            android:src="@drawable/ic_back_white_foreground"
+            style="@style/style_ic_back" />
+
+        <TextView
+            android:id="@+id/tv_locations"
+
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Saved Locations"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_locations"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
