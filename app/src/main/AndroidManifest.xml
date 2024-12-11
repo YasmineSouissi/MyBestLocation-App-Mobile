@@ -51,14 +51,10 @@
             android:exported="false"
             android:label="@string/title_activity_account"
             android:theme="@style/Theme.MyBestLocation" />
-        <!--
-<meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="Put your API Key here" />
-        -->
+       
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDVlwZskPYyQGKZUNdOnP0HuYmVipVqTKA" />
+            android:value="Put your API Key here" />
 
         <activity
             android:name=".MainActivity"
