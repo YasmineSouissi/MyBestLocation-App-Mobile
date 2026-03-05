@@ -105,6 +105,7 @@ Les positions des autres utilisateurs sont récupérées et affichées en temps 
 - Intégration de notifications en temps réel pour les nouvelles positions.
 - Ajout d’un système de messagerie entre utilisateurs.
 - Amélioration de l'interface utilisateur avec des animations.
-## 🤝 Contributeurs
+## 🤝 Auteur
 [Yasmine Souissi] ([(https://github.com/YasmineSouissi/)])
+
 
